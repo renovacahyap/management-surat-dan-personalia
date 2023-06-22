@@ -1,0 +1,57 @@
+body 
+  {
+    background:#E5E5F7 ;
+  }
+
+
+  form button:hover {
+    background: gold;
+  }
+  
+  label {
+    text-align: left;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 0;
+  }
+  
+  input {
+    width: 97.5%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid gold;
+  }
+  button
+  {
+    width: 103%;
+    height: 50px;
+    background: lightgrey;
+    padding: 0.7em;
+    border: 0;
+  }
+ 
+  
+
+  /* @media (min-width: 400px) {
+    form {
+      overflow: hidden;
+    }
+  
+    label {
+      float: left;
+      width: 200px;
+    }
+  
+    input {
+      float: left;
+      width: calc(100% - 200px);
+    }
+  
+    button {
+      margin-left: 100px;
+      width: calc(100% - 200px);
+      
+    }
+} */
+    

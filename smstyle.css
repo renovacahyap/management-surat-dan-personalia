@@ -1,0 +1,54 @@
+body
+{
+background-color: #E5E5F7;
+/* 
+/* opacity: 0.4; */
+/* background-image:  linear-gradient(30deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(150deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(30deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(150deg, #444CF7 12%, transparent 12.5%, transparent 87%, #444CF7 87.5%, #444CF7), linear-gradient(60deg, #444CF777 25%, transparent 25.5%, transparent 75%, #444CF777 75%, #444CF777), linear-gradient(60deg, #444CF777 25%, transparent 25.5%, transparent 75%, #444CF777 75%, #444CF777);
+background-size: 40px 70px; */
+/* background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px; */ 
+
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    
+  }
+  
+  table td, table thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    width: auto;
+  }
+  
+  body h1
+  {
+    text-align: center;
+  }
+  .aksi button
+  {
+      width: 30px;
+      height: 25px;
+      border: none;
+      border-radius: 5px;
+     /* color: rgba(0, 60, 255, 0.733); */
+  }
+  .aksi button:hover
+  {
+     color: yellow ;
+  }

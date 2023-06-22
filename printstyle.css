@@ -1,0 +1,26 @@
+.kertas
+{   
+    width: 21.5cm;
+    height:  29.7cm;
+    /* background-color: rgba(255, 0, 0, 0.274); */
+    margin: auto;
+    margin-top: 0;
+    
+    
+}
+table {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 21.5cm ;
+    height: 29.7cm;
+    padding: 0;
+    
+  }
+  td p
+  {
+    /* vertical-align: top; */
+    line-height: normal;
+    margin-left:0.5cm;
+    
+  }

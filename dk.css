@@ -1,0 +1,70 @@
+
+body
+{
+    /* background:#e5e5f775 ; */
+    /* word-wrap: break-word; */
+}
+
+.container{
+    width: 950px;
+    box-sizing: border-box;
+    /* border: 1px solid #c1c1c1; */
+    display: grid;
+    grid-template-areas: "gambar detail"
+                            "gambar detail";
+    grid-template-columns: 1fr 12fr;
+    /* background:#E5E5F7 ; */
+    margin: auto;
+    padding: 10px;
+    /* word-wrap: break-word; */
+}
+.right{
+    grid-area: detail;
+    /* margin-left: 50px; */
+    line-height: normal;
+    word-wrap: break-word;
+    text-align: justify;
+
+}
+
+ ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+   
+}
+
+ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+ul li span
+{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background:  #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius:50% ;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+   
+}
+
+
+
+
+.left{
+    grid-area: gambar;
+
+}
